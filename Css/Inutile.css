@@ -1,7 +1,13 @@
 /* Paramètre du corps par défaut */
 body{
+<<<<<<< HEAD
     margin: 0 0 0 0;
     padding: 0 0 0 0;
+=======
+    margin: -16px 0 0 0;
+    padding: 0 0 0 6px;
+    background-color: rgb(60, 60, 231);
+>>>>>>> master
 }
 
 /* Début de la barre menu */
@@ -37,4 +43,6 @@ header nav ul{
     line-height: 50px;
 }
 
-/* Début de la barre menu */
+/* Coloration du texte Caché */
+
+.text-color{color:rgb(60, 60, 231);}
