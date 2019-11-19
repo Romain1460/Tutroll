@@ -2,7 +2,6 @@
 body{
     margin: -16px 0 0 0;
     padding: 0 0 0 6px;
-    background-color: rgb(60, 60, 231);
 }
 
 /* Début de la barre menu */
@@ -35,6 +34,4 @@ padding-top: 20px;
 padding-bottom: 20px;
 }
 
-/* Coloration du texte Caché */
-
-.text-color{color:rgb(60, 60, 231);}
+/* Début de la barre menu */
