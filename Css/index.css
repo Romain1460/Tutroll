@@ -1,7 +1,7 @@
 /* Paramètre du corps par défaut */
 body{
-        margin: -16px 0 0 0;
-        padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
 }
 
 /* Début de la barre menu */
@@ -9,29 +9,32 @@ header nav ul li a{
     text-decoration: none;
     color: white;
     font-family: arial black; 
+    padding-top: 20px;
+    padding-bottom: 20px; 
 }
 
 header nav ul li{
     padding: 0 10px 0 10px;
     padding-top: 20px;
-    padding-bottom: 20px; 
+    padding-bottom: 15px; 
     display: inline;
 }
 
 header nav ul li:hover{
     background-color: rgba(255, 255, 255, 0.295);
     border-bottom: 5px solid grey;
-    padding-bottom: 16px;
+    padding-bottom: 11.3px;
 }
 
 header nav ul{
+    margin: 0 0 0 0;
     width: auto;
     background-color: black;
     list-style-type: none;
     text-align: left;
-    height: auto;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    height: 50px;
+    vertical-align: middle;
+    line-height: 50px;
 }
 
 /* Début de la barre menu */
