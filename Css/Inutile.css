@@ -18,12 +18,14 @@ header nav ul li{
     padding-top: 20px;
     padding-bottom: 15px; 
     display: inline;
+    transition-duration: 0.2s;
 }
 
 header nav ul li:hover{
     background-color: rgba(255, 255, 255, 0.295);
     border-bottom: 5px solid grey;
     padding-bottom: 11.3px;
+    transition-duration: 0.2s;
 }
 
 header nav ul{
