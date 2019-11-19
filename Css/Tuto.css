@@ -1,0 +1,37 @@
+/* Paramètre du corps par défaut */
+body{
+    margin: -16px 0 0 0;
+    padding: 0 0 0 6px;
+}
+
+/* Début de la barre menu */
+header nav ul li a{
+text-decoration: none;
+color: white;
+font-family: arial black; 
+}
+
+header nav ul li{
+padding: 0 10px 0 10px;
+padding-top: 20px;
+padding-bottom: 20px; 
+display: inline;
+}
+
+header nav ul li:hover{
+background-color: rgba(255, 255, 255, 0.295);
+border-bottom: 5px solid grey;
+padding-bottom: 16px;
+}
+
+header nav ul{
+width: auto;
+background-color: black;
+list-style-type: none;
+text-align: left;
+height: auto;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+/* Début de la barre menu */
