@@ -1,8 +1,12 @@
 /* Paramètre du corps par défaut */
 body{
-    margin: -16px 0 0 0;
-    padding: 0 0 0 6px;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    background-repeat:no-repeat;/*background fixer*/
+    background: linear-gradient(to bottom, black , #000000 16%, #002d84, #0031be, #1b12eb);/*dégradé du background*/  
 }
+
+html { height: 100%; }/*hauteur de la page définit à 100%*/
 
 /* Début de la barre menu */
 header nav ul li a{

@@ -2,8 +2,12 @@
 body{
     margin: 0 0 0 0;
     padding: 0 0 0 0;
-    background-color: rgb(60, 60, 231);
+    background-repeat:no-repeat;/*background fixer*/
+    background: linear-gradient(to bottom, black , #000000 16%, #002d84, #0031be, #1b12eb);/*dégradé du background*/  
 }
+
+html { height: 100%; }/*hauteur de la page définit à 100%*/
+
 /* Début de la barre menu */
 header nav ul li a{
     text-decoration: none;
@@ -42,7 +46,7 @@ header nav ul{
 /* Coloration du texte Caché */
 
 .text-color{
-    color:rgb(60, 60, 231);
+    color:rgb(0, 0, 0);
 }
 
 
