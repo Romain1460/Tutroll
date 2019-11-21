@@ -41,22 +41,19 @@ img{
     background-size: cover; /* Background en cover */
     background-position: center; /* Background centré */
     width: 100%; /* Taille prend toute la + */
-    height: 100%; /*  */
+    height: 100%; /* Taille en hauteur à 100% */
 }
 
 /* Début de la barre menu */
 
 /* Début bannière */
 h1{
-    position: absolute;
-    color: grey;
-    border-top: 2px solid grey;
-    border-bottom: 2px solid grey;
-    font-size: 80px;
+    position: absolute; /* La position n'influence pas le reste du code */
+    color: rgb(0, 45, 66); /* couleur bleu turquoise foncé */
+    border-top: 5px solid rgb(255, 115, 0); /* bordure top orange 5px */
+    border-bottom: 5px solid rgb(255, 115, 0); /* bordure top orange 5px */
+    font-size: 100px; /* taille à 100 px */
+    left: 50%; /* Espacement à gauche de 50% */
+    margin: 270px 0 0 -190px; /* margin set à 270px top, 0px right; 0px bot, -190px left */
 }
-
-#ban{
-    text-align: center;
-}
-
 /* Fin bannière */
