@@ -1,40 +1,62 @@
 /* Paramètre du corps par défaut */
 body{
-    margin: 0 0 0 0;
-    padding: 0 0 0 0;
+    margin: 0 0 0 0; /* Margin set à 0 */
+    padding: 0 0 0 0; /* Padding set à 0 */
 }
 
 /* Début de la barre menu */
 header nav ul li a{
-    text-decoration: none;
-    color: white;
-    font-family: arial black; 
-    padding-top: 20px;
-    padding-bottom: 20px; 
+    text-decoration: none; /* Pas de décoration de text */
+    color: white; /* Text en blanc */
+    font-family: arial black; /* Couleur de font arial black */
+    padding-top: 20px; /* Padding top à 20 px */
+    padding-bottom: 20px; /* Padding bot à 20px */
 }
 
 header nav ul li{
-    padding: 0 10px 0 10px;
-    padding-top: 20px;
-    padding-bottom: 15px; 
-    display: inline;
+    padding: 20px 10px 15px 10px; /* padding à 20px top, 10 right, 0 bot, 10 left */
+    display: inline; /* Text sur une ligne */
 }
 
 header nav ul li:hover{
-    background-color: rgba(255, 255, 255, 0.295);
-    border-bottom: 5px solid grey;
-    padding-bottom: 11.3px;
+    background-color: rgba(255, 255, 255, 0.295); /* couleur gris transparent */
+    border-bottom: 5px solid grey; /* Couleur gris opaque */
+    padding-bottom: 11.3px; /* Padding bot set à 11.3px */
 }
 
 header nav ul{
-    margin: 0 0 0 0;
-    width: auto;
-    background-color: black;
-    list-style-type: none;
-    text-align: left;
-    height: 50px;
-    vertical-align: middle;
-    line-height: 50px;
+    margin: 0 0 0 0; /* margin set à 0 */
+    width: auto; /* Taille toute la largeur */
+    background-color: black; /* couleur de fond en noir, car oui, le noir est une couleur */
+    list-style-type: none; /* Style de liste désactivé */
+    text-align: left; /* Text aligné à gauche */
+    height: 50px; /* taille de 50px */
+    vertical-align: middle; /* Aligné au centre */
+    line-height: 50px; /* espace entre les lignes de 50px */
+}
+
+img{
+    background-attachment: fixed; /* Background fixé */
+    background-repeat: no-repeat; /* Background pas de répétition */
+    background-size: cover; /* Background en cover */
+    background-position: center; /* Background centré */
+    width: 100%; /* Taille prend toute la + */
+    height: 100%; /*  */
 }
 
 /* Début de la barre menu */
+
+/* Début bannière */
+h1{
+    position: absolute;
+    color: grey;
+    border-top: 2px solid grey;
+    border-bottom: 2px solid grey;
+    font-size: 80px;
+}
+
+#ban{
+    text-align: center;
+}
+
+/* Fin bannière */
