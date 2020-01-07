@@ -2,6 +2,7 @@
 body{
     margin: 0 0 0 0; /* Margin set à 0 */
     padding: 0 0 0 0; /* Padding set à 0 */
+    background-color: rgb(179, 255, 242); /* couleur de fond bleu très clair */
 }
 
 /* Début de la barre menu */
@@ -36,3 +37,32 @@ header nav ul{
 }
 
 /* Fin de la barre menu */
+
+/* Titre de la page */
+
+h2{border: 6px solid black;
+    margin-right: 40%;
+    margin-left:40%;
+   padding: 2%;
+   text-align:center;
+   font-size: 270%;
+
+
+}
+
+/* texte */
+
+.texte{
+    margin: 50px 80px 50px 80px;
+    padding: 20px 30px 20px 30px;
+    background-color: rgba(0, 0, 0, 0.342);
+    font-size: 20px;
+    font-family: impact;
+
+
+}
+
+p{  color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.342); /* Couleur de fond */
+    margin-right:67%;}
+   
