@@ -2,6 +2,7 @@
 body{
     margin: 0 0 0 0; /* Margin set à 0 */
     padding: 0 0 0 0; /* Padding set à 0 */
+    background-color: rgb(179, 255, 242);
 }
 
 /* Début de la barre menu */

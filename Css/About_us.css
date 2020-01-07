@@ -2,10 +2,7 @@
 body{
     margin: 0 0 0 0; /* Margin set à 0 */
     padding: 0 0 0 0; /* Padding set à 0 */
-    background-image:url(../image/background2.jpg);
-    background: fixed;
-    background-repeat:no-repeat;
-    
+    background-color: rgb(179, 255, 242); /* couleur de fond bleu très clair */
 }
 
 /* Début de la barre menu */
@@ -43,18 +40,15 @@ header nav ul{
 
 /* Début de la zone de texte*/
 .texte{
+    background-color: rgba(0, 0, 0, 0.342);
+    margin: 10px 80px 50px 80px;
+    padding: 20px 30px 20px 30px;
+    font-size: 20px;
+    font-family: impact;
+}
 
-    margin-top: -50px;
-    background-color: rgba(107, 97, 97, 0.6);
-    border: 3px rgb(7, 7, 7) ridge;
-    border-radius: 10px;
-    width: 60%;
-    margin: auto;
-    font-weight: 3600;
-    font-size:xx-large;
-    margin-top: 10%;
-    padding-left:5px;
-    padding-right:5px;
-    color:white;
-
+h2{
+    margin: 50px 80px 10px 80px;
+    padding: 20px 30px 20px 30px;
+    font-size: 50px;
 }
