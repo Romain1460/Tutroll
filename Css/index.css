@@ -2,7 +2,7 @@
 body{
     margin: 0 0 0 0; /* Margin set à 0 */
     padding: 0 0 0 0; /* Padding set à 0 */
-    background-color: rgb(179, 255, 242);
+    background-color: rgb(179, 255, 242); /* Couleur de fond */
 }
 
 /* Début de la barre menu */
@@ -59,10 +59,10 @@ h1{
 /* Fin bannière */
 
 .explique{
-    margin: 50px 80px 50px 80px;
-    padding: 20px 30px 20px 30px;
-    background-color: rgba(0, 0, 0, 0.342);
-    font-size: 20px;
-    font-family: impact;
+    margin: 50px 80px 50px 80px; /* Set du margin */
+    padding: 20px 30px 20px 30px; /* Set du padding */
+    background-color: rgba(0, 0, 0, 0.342); /* Couleur de fond */
+    font-size: 20px; /* Taille d'écriture */
+    font-family: impact; /* Police d'écriture */
 
 }

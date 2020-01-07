@@ -40,15 +40,15 @@ header nav ul{
 
 /* Début de la zone de texte*/
 .texte{
-    background-color: rgba(0, 0, 0, 0.342);
-    margin: 10px 80px 50px 80px;
-    padding: 20px 30px 20px 30px;
-    font-size: 20px;
-    font-family: impact;
+    background-color: rgba(0, 0, 0, 0.342); /* Couleur de fond */
+    margin: 10px 80px 50px 80px; /* Set du magin */
+    padding: 20px 30px 20px 30px; /* Set du padding */
+    font-size: 20px; /* Taille d'écriture */
+    font-family: impact; /* Police d'écriture */
 }
 
 h2{
-    margin: 50px 80px 10px 80px;
-    padding: 20px 30px 20px 30px;
-    font-size: 50px;
+    margin: 50px 80px 10px 80px; /* Set du margin */
+    padding: 20px 30px 20px 30px; /* Set du padding */
+    font-size: 50px; /* Taille d'écriture */
 }
