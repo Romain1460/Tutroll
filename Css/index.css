@@ -50,11 +50,18 @@ img{
 h1{
     position: absolute; /* La position n'influence pas le reste du code */
     color: rgb(0, 0, 0); /* couleur bleu turquoise foncé */
-    background-color: rgba(255, 255, 255, 0.329); /* Couleur de fond en blanc transparent */
-    border-top: 5px solid rgb(255, 0, 0); /* bordure top orange 5px */
     border-bottom: 5px solid rgb(255, 0, 0); /* bordure top orange 5px */
     font-size: 100px; /* taille à 100 px */
     left: 50%; /* Espacement à gauche de 50% */
     margin: 270px 0 0 -190px; /* margin set à 270px top, 0px right; 0px bot, -190px left */
 }
 /* Fin bannière */
+
+.explique{
+    margin: 50px 80px 50px 80px;
+    padding: 20px 30px 20px 30px;
+    background-color: rgba(0, 0, 0, 0.342);
+    font-size: 20px;
+    font-family: impact;
+
+}
