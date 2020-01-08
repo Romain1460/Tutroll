@@ -40,3 +40,14 @@ header nav ul{
 }
 
 /* Fin de la barre menu */
+
+img{
+    margin-left: 37%;
+    margin-right:50%;
+}
+
+p{
+    text-align: center;
+    font-size: 150%;
+    color:white;
+}
